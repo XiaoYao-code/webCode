@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xuesheng:war">
+    <output-path>$PROJECT_DIR$/xuesheng/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xuesheng</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xuesheng-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="xuesheng:war exploded" />
+    </root>
+  </artifact>
+</component>
