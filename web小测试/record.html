@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<style>
+    .button {
+        border: solid 1px black;
+        padding: 12px;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+</style>
+
+<div class="left">
+    <div id="startButton" class="button">开始录制</div>
+    <h2>预览</h2>
+    <!-- autoplay 自动播放 -->
+    <!-- muted 静音 -->
+    <video id="preview" width="160" height="120" controls muted></video>
+</div>
+
+<div class="right">
+    <div id="stopButton" class="button">停止</div>
+    <h2>录制中</h2>
+    <!-- controls 显示播放器的控制面板（播放、暂停、停止）-->
+    <video id="recording" width="160" height="120" controls></video>
+    <div id="downloadButton" class="button">下载</div>
+</div>
+
+<script src="record.js" charset="utf-8"></script>
