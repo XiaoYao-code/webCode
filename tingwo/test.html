@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>视频录制</title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <div class="left">
+            <div id="startButton" class="button">开始采集</div>
+            <h2>预览</h2>
+            <video id="preview" width="160" height="120" autoplay muted></video>
+            <div id="recordButton" class="button">开始录制</div>
+        </div>
+
+        <div class="right">
+            <div id="stopButton" class="button">停止</div>
+            <h2>录制</h2>
+            <video id="recording" width="160" height="120" controls></video>
+            <a id="downloadButton" class="button">下载</a>
+        </div>
+
+        <div class="bottom">
+            <pre id="log"></pre>
+        </div>
+
+        <script src="test.js" charset="utf-8"></script>
+    </body>
+</html>
